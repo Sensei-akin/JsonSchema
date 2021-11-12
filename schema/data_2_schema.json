@@ -1,0 +1,80 @@
+{
+    "acl": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "enum",
+        "items": {}
+    },
+    "internationalCountries": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "enum",
+        "items": {
+            "type": "string"
+        }
+    },
+    "publicFeed": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "boolean"
+    },
+    "time": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "integer"
+    },
+    "topTraderFeed": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "boolean"
+    },
+    "user": {
+        "required": false,
+        "tag": "",
+        "description": "",
+        "type": "array",
+        "properties": {
+            "accountType": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            },
+            "countryCode": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            },
+            "id": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            },
+            "nickname": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            },
+            "orientation": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            },
+            "title": {
+                "required": false,
+                "tag": "",
+                "description": "",
+                "type": "string"
+            }
+        }
+    }
+}
