@@ -1,6 +1,8 @@
 
 =======================================
+
 Program to infer schema from JSON file
+
 ========================================
 
 
@@ -47,4 +49,4 @@ Example of using the program to generate a schema from a list of samples::
 
 Run with 
 
-```git remote add origin https://github.com/Sensei-akin/JsonSchema.git```
+```python JsonSchema/main.py infile {filename}```
